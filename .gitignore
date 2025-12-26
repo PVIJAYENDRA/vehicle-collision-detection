@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model files (keep yolov8n.pt but ignore larger models)
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+*.onnx
+*.weights
+
+# Video files (user's videos - keep, but ignore test videos)
+synthetic_test.mp4
+test_*.mp4
+sample_*.mp4
+# Note: Large video files (>100MB) may need Git LFS or should be excluded
+# DEMO2.mp4 and vv.mp4 will be included unless you remove them
+
+# Image files (test frames)
+test_frames/
+extracted_frames/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
